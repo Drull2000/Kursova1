@@ -42,12 +42,6 @@ public:
 
 int main() {
     FileManager fm;
-    fm.list(); // показати поточну папку
-    // fm.createDir("test");
-    // fm.createFile("test/file.txt");
-    // fm.rename("test/file.txt", "test/new.txt");
-    // fm.copy("test", "copy_test");
-    // cout << "Size: " << fm.size("test") << " bytes\n";
-    // fm.search(".", "txt");
+    fm.list(); 
     return 0;
 }
